@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <!--   How to read and write a file using JavaScript? -->
+
+    <!--     -> 1). file=fopen(getScriptPath(),0); The function fread() is used for reading the file content.
+                2). str = fread(file,flength(file) ; The function fwrite() is used to write the contents to the file.
+                3). file = fopen("c:\MyFile.txt", 3);// opens the file for writing.
+
+             -> On the client side, you can’t read or write files in JavaScript browsers. The fs module in Node.js may be used to accomplish
+                this on the server-side. It has methods for reading and writing files on the file system that are both synchronous and 
+                asynchronous. Let’s demonstrate some examples of reading and writing files with the node.js fs module.
+
+             -> The fs.readFile() and rs.writeFile() methods are used to read and write of a file using javascript. The file is read using 
+                the fs.readFile() function, which is an inbuilt method. This technique reads the full file into memory and stores it in a 
+                buffer. 
+
+             -> Syntax:
+
+                  fs.readFile( file_name, encoding, callback_function )    
+
+             -> filename: It contains the filename to be read, or the whole path if the file is saved elsewhere.
+                
+                encoding: It stores the file’s encoding. ‘utf8’ is the default setting.
+                
+                callback function: This is a function that is invoked after the file has been read. It requires two inputs:
+                
+                err: If there was an error.
+                
+                data: The file’s content.
+                
+                Return Value: It returns the contents contained in the file, as well as any errors that may have occurred. 
+                
+             ->    The fs.writeFile() function is used to write data to a file in an asynchronous manner. If the file already exists, it will
+                   be replaced.
+
+     -->
+</body>
+</html>

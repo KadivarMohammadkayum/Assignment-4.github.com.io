@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    width: 30%;
+    height: auto;
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-left: 30%;
+}
+
+h2{
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+}
+
+table{
+    align-items: center;
+    margin-left: 15%;
+}
+
+button{
+    margin-top: 15px;
+    padding: 6px 14px;
+    border-radius: 5px;
+}
+
+#obtain{
+    margin-top: 20px;
+}
+
+#persen{
+    margin-top:  20px;
+    margin-bottom: 30px;
+}

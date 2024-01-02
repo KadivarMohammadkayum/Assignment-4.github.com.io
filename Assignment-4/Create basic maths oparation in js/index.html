@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Basic math operation in js</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='JS/script.js'></script>
+
+    <style>
+        #number{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 3%;
+        }
+        #btn button{
+            width: 30px;
+            height: 30px; 
+            margin: 4px;
+        }
+       
+    </style>
+</head>
+<body>
+    <section>
+        <h2 style="text-align: center;">Maths Operstions</h2>
+        <div id="number">
+            <div>
+                <label for="1stnumber">Enter 1st number :</label>
+                <input type="text" name="display" id="firnumber">
+            </div>
+            <div style="margin-top: 15px;">
+                <label for="2stnumber">Enter 2nd number :</label>
+                <input type="text" name="display" id="secnumber">
+            </div>  
+        </div>
+        <div style="text-align: center; margin-top: 30px;">
+            <button type="button" value="+" onclick="calculate()" id="btn">+</button>
+            <button type="button" value="-" onclick="calculate()" id="btn">-</button>
+            <button type="button" value="*" onclick="calculate()" id="btn">*</button>
+            <button type="button" value="/" onclick="calculate()" id="btn">/</button>
+            <button type="button" value="%" onclick="calculate()" id="btn">%</button>
+        </div>
+        <div class="ans" style="text-align: center;">
+            <h5 id="result">Answer is :</h5>
+        </div>
+    </section>
+</body>
+</html>
